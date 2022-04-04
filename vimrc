@@ -136,4 +136,8 @@ augroup autosource
 augroup END
 "}}}
 
-noremap <F2> :!npm run test<CR>
+augroup keymaps_filetype
+  autocmd!
+  autocmd FileType javascript nnoremap <F2> :!npm run test<CR>
+  autocmd FileType c nnoremap <F2> :!gcc %<CR>
+augroup END
