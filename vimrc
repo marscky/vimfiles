@@ -141,3 +141,7 @@ augroup keymaps_filetype
   autocmd FileType javascript nnoremap <F2> :!npm run test<CR>
   autocmd FileType c nnoremap <F2> :!gcc %<CR>
 augroup END
+
+augroup templates
+  autocmd BufNewFile *.c :0r ~/.vim/skeletons/skeleton.c | :normal 2jo
+augroup END
