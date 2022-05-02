@@ -87,6 +87,7 @@ nnoremap <leader><Space> :nohlsearch<CR>
 
 " Folding ======================================={{{
 set foldlevelstart=99           " no folds closed when start to edit
+set foldmethod=syntax
 
 " set marker fold method for vimrc files
 augroup fold_filetype
