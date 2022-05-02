@@ -138,8 +138,14 @@ augroup END
 
 augroup keymaps_filetype
   autocmd!
+  " run npm test script
   autocmd FileType javascript nnoremap <F2> :!npm run test<CR>
+
+  " compile C program
   autocmd FileType c nnoremap <F2> :!gcc %<CR>
+
+  " compile and run C program
+  autocmd FileType c nnoremap <F3> :!gcc % && ./a.out<CR>
 augroup END
 
 augroup templates
