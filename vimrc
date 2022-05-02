@@ -95,6 +95,23 @@ augroup fold_filetype
 augroup end
 "}}}
 
+" netrw ========================================={{{
+" do not display the banner
+let g:netrw_banner = 0
+
+" files are opened in previous window
+let g:netrw_browse_split = 4
+
+" set tree view for file list
+let g:netrw_liststyle = 3
+
+" set window size
+let g:netrw_winsize = 20
+
+" do not show files in .gitignore
+let g:netrw_list_hide = netrw_gitignore#Hide()
+"}}}
+
 " Keymaps ======================================={{{
 " stay on home row to exit to normal mode
 inoremap jk <Esc>
