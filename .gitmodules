@@ -4,3 +4,6 @@
 [submodule "pack/plugins/start/vim-polyglot"]
 	path = pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "pack/colors/opt/dracula"]
+	path = pack/colors/opt/dracula
+	url = https://github.com/dracula/vim.git

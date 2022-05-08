@@ -43,10 +43,14 @@ filetype plugin on
 
 set termguicolors               " display true color in supporting terminals
 
-packadd! onedark
-let g:onedark_terminal_italics=1
-let g:onedark_hide_endofbuffer=1
-colorscheme onedark
+" packadd! onedark
+" let g:onedark_terminal_italics=1
+" let g:onedark_hide_endofbuffer=1
+" colorscheme onedark
+
+packadd! dracula
+let g:dracula_italic=1
+colorscheme dracula
 "}}}
 
 " Editing, tabs, whitespaces and indents ========{{{
