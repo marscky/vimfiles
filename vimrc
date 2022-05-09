@@ -107,6 +107,8 @@ augroup end
 "}}}
 
 " netrw ========================================={{{
+nnoremap <C-t> :Lexplore<CR>
+
 " do not display the banner
 let g:netrw_banner = 0
 
