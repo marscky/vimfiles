@@ -7,3 +7,6 @@
 [submodule "pack/colors/opt/dracula"]
 	path = pack/colors/opt/dracula
 	url = https://github.com/dracula/vim.git
+[submodule "pack/plugins/opt/vim-airline"]
+	path = pack/plugins/opt/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git

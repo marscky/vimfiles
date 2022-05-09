@@ -29,6 +29,12 @@ set ruler                       " show cursor line and column position
 set showcmd                     " show command keys that are typed in
 set showmode                    " display mode for Insert, Replace, Visual
 
+packadd! vim-airline
+if !exists("g:airline_symbols")
+  let g:airline_symbols={}
+endif
+let g:airline_symbols.colnr=' '
+
 if has("gui_running")
   set guifont=IBMPlexMono:h13
   set linespace=3
