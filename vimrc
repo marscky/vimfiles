@@ -57,6 +57,9 @@ set termguicolors               " display true color in supporting terminals
 packadd! dracula
 let g:dracula_italic=1
 colorscheme dracula
+
+let g:htl_all_templates=1
+packadd! vim-html-template-literals
 "}}}
 
 " Editing, tabs, whitespaces and indents ========{{{
